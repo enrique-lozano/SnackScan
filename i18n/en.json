@@ -1,0 +1,233 @@
+{
+  "HOME": {
+    "welcome": {
+      "default": "Welcome back,"
+    },
+    "links": {
+      "saved": "Saved products",
+      "cart": "Shopping list",
+      "stats": "Check stats",
+      "compare": "Compare products"
+    },
+    "change-display-name": {
+      "placeholder": "New user name",
+      "header": "Change the name that this screen shows",
+      "correct": "Name changed correctly"
+    },
+    "no-history": "You haven't scanned any products yet. Search for a barcode and scan it by pressing the button below",
+    "last-scans": "Last scanned products"
+  },
+  "GENERAL": {
+    "confirm": "Ok!",
+    "cancel": "Cancel",
+    "or": "or",
+    "understood": "Understood",
+    "done": "Done",
+    "continue": "Continue"
+  },
+  "INTRO": {
+    "slide1-title": "Welcome to Snackscan",
+    "slide1-description": "With us you will be able to scan more than 1 and a half million products thanks to a database open and managed by all. You will be able to establish allergen alerts, consult additives and alternatives to a product, prepare shopping lists , see the nutrients of a product and much more. Join! ",
+    "go-to-register": "Register",
+    "go-to-login": "I already have an account",
+    "slide2-title": "Select if you have any allergies",
+    "slide2-description": "This way we can notify you when you scan or consult a product that may not suit you",
+    "slide3-title": "Vegan? Vegetarian?",
+    "slide3-description": "Tell us if you want us to notify you in the event that we find any product not suitable for vegetarians or vegans.",
+    "im-vegan": "I am vegan",
+    "im-vegetarian": "I am a vegetarian"
+  },
+  "LOGIN": {
+    "login": "Log In",
+    "email": "Email",
+    "password": "Password",
+    "forgot_pass": "Forgot password?",
+    "start-with-google": "Enter with Google",
+    "start-with-email": "Register with email",
+    "password-validator": "* Mínimo 8 carácteres y al menos un número"
+  },
+  "REGISTER": {
+    "register": "Register",
+    "already_a_user": "Already have an account?",
+    "terms1": "I've read the ",
+    "terms2": "terms and conditions"
+  },
+  "RESET-PASSWORD": {
+    "reset-password": "Reset password",
+    "description": "Enter your email below and we will send you instructions to recover your password"
+  },
+  "AUTH-ERRORS": {
+    "conditions": "You have to accept the terms and conditions to continue",
+    "sort-password": "The password should have at least 6 characters",
+    "input-incomplete": "Please, complete all the fields in the form",
+    "not-verified": "Account is not verified. Please, check your inbox"
+  },
+  "PRODUCT-DATA": {
+    "not-complete-warning": "This product is not complete and therefore your information is less reliable. Help to complete this product by clicking on this message",
+    "allergen-warning": "This product could cause allergies",
+    "diet-warning": "This product does not fit with your diet",
+    "vegan-product": "Vegan product",
+    "vegetarian-product": "Vegetarian product",
+    "non-vegan-product": "Non-vegan product",
+    "non-vegetarian-product": "Non-vegetarian product",
+    "palm-oil-presence": "Palm oil presence",
+    "palm-oil-free": "Palm oil free",
+    "header-valoration": {
+      "very-bad": "Very bad",
+      "bad": "Bad",
+      "normal": "Acceptable",
+      "good": "Good",
+      "very-good": "Very Good",
+      "no-data": "Insufficient data"
+    },
+    "nutriments": {
+      "energy": "Calories",
+      "proteins": "Proteins",
+      "fats": "Fats",
+      "satured-fats": "Satured fats",
+      "carbohydrates": "Carbohydrates",
+      "sugars": "Sugars",
+      "salt": "Salt",
+      "fiber": "Fiber",
+      "cocoa": "Cocoa",
+      "potassium": "Potassium",
+      "magnesium": "Magnesium",
+      "calcium": "Calcium"
+    },
+    "nova-group": {
+      "1": "Unprocessed or minimally processed foods",
+      "2": "Processed culinary ingredients",
+      "3": "Processed foods",
+      "4": "Ultra-processed products",
+      "unknown": "Food processing level unknown",
+      "page": {
+        "title": "NOVA Groups"
+      }
+    },
+    "allergens": {
+      "eggs": "Eggs",
+      "milk": "Milk",
+      "soybeans": "Soybeans",
+      "gluten": "Gluten",
+      "nuts": "Nuts",
+      "celery": "Celery",
+      "fish": "Fish",
+      "mustard": "Mustard",
+      "peanuts": "Peanuts",
+      "crustaceans": "Crustaceans",
+      "molluscs": "Molluscs",
+      "lupin": "Lupin",
+      "sesame-seeds": "Sesame seeds",
+      "sulphur-dioxide-and-sulphites": "Sulphites"
+    },
+    "footer": {
+      "provider": "Information provided thanks to",
+      "provider-link": "Open Food Facts",
+      "disclaimer": "This section is completely impartial. No brand has paid to have a better rating here.",
+      "more-info": "More information"
+    }
+  },
+  "ADDITIVES": {
+    "additive": "Additive",
+    "types": {
+      "colour": "Colour",
+      "preservative": "Preservative",
+      "antioxidant": "Antioxidant",
+      "stabiliser": "Stabiliser",
+      "flavour-enhancer": "Flavour Enhancer",
+      "antibiotic": "Antibiotic",
+      "sweetener": "Sweetener",
+      "flavour": "Flavour",
+      "not-found": "",
+      "colour-description": "Provides a different color than the product would have naturally",
+      "preservative-description": "Stops or minimizes the deterioration caused by the presence of different types of microorganisms (bacteria, yeasts and molds)",
+      "antioxidant-description": "Decreases the oxidation reaction that occurs normally in food",
+      "stabilizer-description": "Helps to change the texture of a product or to control a certain chemical reaction that may occur during its processing",
+      "flavour-enhancer-description": "Increases the flavor of food",
+      "antibiotic-description": "Chemical substance produced by a living being or synthetic derivative, which kills or prevents the growth of certain classes of sensitive microorganisms",
+      "sweetener-description": "They give a sweet taste, being used mainly as substitutes for sugar",
+      "not-found-description": "Category can not be specified"
+    },
+    "risk": {
+      "low": "Riesgo bajo",
+      "medium": "Riesgo moderado",
+      "high": "Riesgo alto",
+      "unknown": "Riesgo desconocido"
+    }
+  },
+  "SETTINGS": {
+    "title": "Settings",
+    "user-id": "User ID",
+    "display-name": "User name",
+    "language": "Language",
+    "scan-mode": "Prefered scan mode",
+    "user-nutri-preferences": "Edit your nutritionals warnings",
+    "copy-correct": "User ID copied successfully",
+    "copy-incorrect": "Unable to copy the user ID",
+    "donation": "Donate to Open Food Facts",
+    "about-product-analyzer": "About the product analyzer",
+    "delete-cache": "Delete the cache",
+    "logout": "Log out",
+    "delete-account": "Delete my account",
+    "delete-account-header1": "Stop there padawan⚠️⚠️",
+    "delete-account-message1": "Are you sure you want to continue? All your data will be permanently deleted and cannot be recovered",
+    "delete-account-header2": "The last step⚠️⚠️",
+    "delete-account-message2": "By deleting an account you will delete all your stored personal data. Your inventories, products and shopping lists will be deleted and cannot be recovered. Do you agree?",
+    "LICENSES": {
+      "title": "Licenses",
+      "icons": "Icons",
+      "text1": "The icons of this app have been extracted from",
+      "text2": "We should mention the following authors:",
+      "db": "Source of the data"
+    }
+  },
+  "SHOPPING-LISTS": {
+    "title": "My shopping lists",
+    "product": "Product",
+    "products": "Products",
+    "placeholder": "Create a new shopping list",
+    "no-lists": "You don't have a shopping list yet. Create one simply by entering an identifying name in the bottom bar",
+    "share": {
+      "title": "Share this list",
+      "message": "Enter the ID of the user with whom you want to share this list, in order to share this list and all its products.",
+      "correct": "List shared correctly"
+    },
+    "list-details": {
+      "add-product-placeholder": "Add a product",
+      "delete-checked": "Are you sure you want to delete the checked products?"
+    }
+  },
+  "COMPARE-PRODUCTS": {
+    "title": "Product comparator"
+  },
+  "SAVED-PRODUCTS": {
+    "title": "My saved products",
+    "no-products": "You don't have any saved products yet. You will be able to save a product by clicking on the button in the upper right corner within the details tab of that product"
+  },
+  "STATISTICS": {
+    "MONTHS": {
+      "January": "January",
+      "February": "February",
+      "March": "March",
+      "April": "April",
+      "May": "May",
+      "June": "June",
+      "July": "July",
+      "August": "August",
+      "September": "September",
+      "October": "October",
+      "November": "November",
+      "December": "December"
+    }
+  },
+  "MANUAL-SCAN": {
+    "title": "Manual scan",
+    "barcode": "Barcode",
+    "description": "Broken or poor quality camera? Low light? Don't worry, now you can manually search for any product by entering its barcode in the top bar."
+  },
+  "EDIT-USER-WARNINGS": {
+    "title": "Edit your notices and preferences",
+    "allergens": "Allergies",
+    "other-preferences": "Other preferences"
+  }
+}

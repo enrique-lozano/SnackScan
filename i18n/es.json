@@ -1,0 +1,235 @@
+{
+  "HOME": {
+    "welcome": {
+      "default": "Bienvenido de nuevo,"
+    },
+    "links": {
+      "saved": "Productos guardados",
+      "cart": "Lista de la compra",
+      "stats": "Consulta estadíst.",
+      "compare": "Comparar productos"
+    },
+    "change-display-name": {
+      "placeholder": "Nuevo nombre de usuario",
+      "header": "Cambia el nombre que se muestra en pantalla",
+      "correct": "Nombre cambiado correctamente"
+    },
+    "no-history": "Aun no has escaneado ningún producto. Busca un codigo de barras y escanalo pulsando el botón inferior",
+    "last-scans": "Últimos productos escaneados"
+  },
+  "GENERAL": {
+    "confirm": "Ok!",
+    "cancel": "Cancel",
+    "or": "o",
+    "understood": "Entendido",
+    "done": "Hecho",
+    "continue": "Continuar"
+  },
+  "INTRO": {
+    "slide1-title": "Bienvenido a Snackscan",
+    "slide1-description": "Con nosotros podrás escanear mas de 1 millón y medio de productos gracias a una base de datos abierta y gestionada por todos. Podrás establecer alertas de alérgenos, consultar aditivos y alternativas a un producto, elaborar listas de la compra, ver los nutrientes de un producto y mucho mas. Unete!",
+    "go-to-register": "Registrarme",
+    "go-to-login": "Ya tengo una cuenta",
+    "slide2-title": "Selecciona si tienes alguna alergia",
+    "slide2-description": "De esta forma podremos avisarte cuando escanees o consultes un producto que puede que no te siente bien",
+    "slide3-title": "¿Vegano? ¿Vegetariano?",
+    "slide3-description": "Indicanos si quieres que te avisemos en el caso de que encontremos algun producto no apto para vegetarianos o para veganos.",
+    "im-vegan": "Soy vegano",
+    "im-vegetarian": "Soy vegetariano"
+  },
+  "LOGIN": {
+    "login": "Inicia Sesión",
+    "email": "Email",
+    "password": "Contraseña",
+    "forgot_pass": "Contraseña olvidada?",
+    "not_a_user": "Aún no tienes cuenta?",
+    "start-with-google": "Entra con Google",
+    "start-with-email": "Registrate con email",
+    "password-validator": "* Mínimo 8 carácteres y al menos un número"
+  },
+  "REGISTER": {
+    "register": "Registrarse",
+    "already_a_user": "Ya tienes cuenta?",
+    "terms1": "He leido y acepto ",
+    "terms2": "los terminos y condiciones"
+  },
+  "RESET-PASSWORD": {
+    "reset-password": "Recuperar contraseña",
+    "description": "Introduce tu email a continuación y te enviaremos instrucciones para recuperar tu contraseña"
+  },
+  "AUTH-ERRORS": {
+    "conditions": "Por favor, acepte los terminos y condiciones para continuar",
+    "sort-password": "La contraseña debe tener al menos 6 carácteres",
+    "input-incomplete": "Por favor, rellena todos los campos del formulario",
+    "not-verified": "La cuenta no esta verificada. Por favor, compruebe el correo"
+  },
+  "PRODUCT-DATA": {
+    "not-complete-warning": "Este producto no esta completo y por tanto, su información es menos fiable. Ayuda a completar este producto pinchando en este mensaje",
+    "allergen-warning": "Este producto podria causarte alergía",
+    "diet-warning": "Este producto no encaja con tu dieta",
+    "vegan-product": "Producto vegano",
+    "vegetarian-product": "Producto vegetariano",
+    "non-vegan-product": "Producto no vegano",
+    "non-vegetarian-product": "Producto no vegetariano",
+    "palm-oil-presence": "Presencia de aceite de palma",
+    "palm-oil-free": "Libre de aceite de palma",
+    "header-valoration": {
+      "very-bad": "Muy malo",
+      "bad": "Mediocre",
+      "normal": "Aceptable",
+      "good": "Bueno",
+      "very-good": "Muy recomendable",
+      "no-data": "Datos insuficientes"
+    },
+    "nutriments": {
+      "energy": "Calorías",
+      "proteins": "Proteinas",
+      "fats": "Grasas",
+      "satured-fats": "Grasas saturadas",
+      "carbohydrates": "Carbohidratos",
+      "sugars": "Azúcares",
+      "salt": "Sal",
+      "fiber": "Fibra",
+      "cocoa": "Cacao",
+      "potassium": "Potasio",
+      "magnesium": "Magnesio",
+      "calcium": "Calcio"
+    },
+    "nova-group": {
+      "1": "Alimentos minimamente procesados",
+      "2": "Alimentos culinarios procesados",
+      "3": "Alimentos procesados",
+      "4": "Alimentos y bebidas ultraprocesadas",
+      "unknown": "Grado de procesamiento desconocido",
+      "page": {
+        "title": "Grupos NOVA"
+      }
+    },
+    "allergens": {
+      "eggs": "Huevos",
+      "milk": "Lácteos",
+      "soybeans": "Soja",
+      "gluten": "Gluten",
+      "nuts": "Nueces",
+      "celery": "Apio",
+      "fish": "Pescado",
+      "mustard": "Mostaza",
+      "peanuts": "Cacahuetes",
+      "crustaceans": "Crustaceos",
+      "molluscs": "Moluscos",
+      "lupin": "Altramuces",
+      "sesame-seeds": "Semillas de sésamo",
+      "sulphur-dioxide-and-sulphites": "Sulfuros"
+    },
+    "footer": {
+      "provider": "Informacion obtenida gracias a",
+      "provider-link": "Open Food Facts",
+      "disclaimer": "Esta seccion es completamente imparcial. Ninguna marca ha pagado por tener mejor valoración aqui.",
+      "more-info": "Mas información"
+    }
+  },
+  "ADDITIVES": {
+    "additive": "Aditivo",
+    "types": {
+      "colour": "Colorante",
+      "preservative": "Conservante",
+      "antioxidant": "Antioxidante",
+      "stabiliser": "Estabilizante",
+      "flavour-enhancer": "Saborizante",
+      "antibiotic": "Antibiótico",
+      "sweetener": "Edulcorante",
+      "flavour": "Aroma",
+      "not-found": "",
+      "colour-description": "Proporciona un color diferente al que tendría el producto de forma natural",
+      "preservative-description": "Detiene o minimiza el deterioro causado por la presencia de diferentes tipos de microorganismos (bacterias, levaduras y mohos)",
+      "antioxidant-description": "Disminuye la reacción de oxidación que se produce de forma habitual en los alimentos",
+      "stabiliser-description": "Ayuda a cambiar la textura de un producto o a controlar cierta reacción química que se pueda producir durante su procesado",
+      "flavour-enhancer-description": "Aumenta el sabor de los alimentos",
+      "antibiotic-description": "Sustancia química producida por un ser vivo o derivado sintético, que mata o impide el crecimiento de ciertas clases de microorganismos sensibles",
+      "sweetener-description": "Dan un sabor dulce, empleandose sobre todo como sustitutos del azúcar",
+      "not-found-description": "No se ha podido identificar la categoría"
+    },
+    "risk": {
+      "low": "Riesgo bajo",
+      "medium": "Riesgo moderado",
+      "high": "Riesgo alto",
+      "unknown": "Riesgo desconocido"
+    }
+  },
+  "SETTINGS": {
+    "title": "Ajustes",
+    "user-id": "ID del usuario",
+    "display-name": "Nombre de usuario",
+    "language": "Idioma",
+    "scan-mode": "Modo de escaneo favorito",
+    "user-nutri-preferences": "Edita tus avisos nutricionales",
+    "copy-correct": "ID copiado correctamente",
+    "copy-incorrect": "Error al copiar el ID del usuario",
+    "donation": "Dona Open Food Facts",
+    "about-product-analyzer": "Sobre el analizador de productos",
+    "delete-cache": "Borra la cache de la app",
+    "logout": "Cerrar sesión",
+    "delete-account": "Eliminar mi cuenta",
+    "delete-account-header1": "Alto ahí padawan⚠️⚠️",
+    "delete-account-message1": "¿Estas seguro de que quieres continuar? Todos tus datos serán borrados permanentemente y no podrán ser recuperados",
+    "delete-account-header2": "Un último paso⚠️⚠️",
+    "delete-account-message2": "Al eliminar una cuenta eliminarás todos tus datos personales almacenados. Tus inventarios, productos y listas de la compra serán borrados y no podrán ser recuperados. ¿Estas de acuerdo?",
+    "delete-account-toast": "Por favor, intenta iniciar sesión de nuevo para comprobar que tu cuenta ha sido eliminada correctamente",
+    "LICENSES": {
+      "title": "Licencias",
+      "icons": "Iconos",
+      "text1": "Los iconos usados en esta aplicación han sido extraidos desde",
+      "text2": "Hemos de destacar a los siguientes autores:",
+      "db": "Fuente de los datos"
+    }
+  },
+  "SHOPPING-LISTS": {
+    "title": "Mis listas de la compra",
+    "product": "Producto",
+    "products": "Productos",
+    "placeholder": "Crea una lista de la compra",
+    "no-lists": "Aun no tienes ninguna lista de la compra. Crea una simplemente introduciendo un nombre identificativo en la barra inferior",
+    "share": {
+      "title": "Compartir esta lista",
+      "message": "Introduce el ID del usuario en cuestión para compartir esta lista y todas sus productos.",
+      "correct": "Elemento compartido correctamente"
+    },
+    "list-details": {
+      "add-product-placeholder": "Añade un producto",
+      "delete-checked": "¿Seguro que quieres eliminar los productos seleccionados?"
+    }
+  },
+  "COMPARE-PRODUCTS": {
+    "title": "Comparador de productos"
+  },
+  "SAVED-PRODUCTS": {
+    "title": "Mis productos guardados",
+    "no-products": "Aún no tienes ningún producto guardado. Pordrás guardar un producto pulsando en el botón de la esquina superior derecha dentro de la pestaña de detalles de ese producto"
+  },
+  "STATISTICS": {
+    "MONTHS": {
+      "January": "Enero",
+      "February": "Febrero",
+      "March": "Marzo",
+      "April": "Abril",
+      "May": "Mayo",
+      "June": "Junio",
+      "July": "Julio",
+      "August": "Agosto",
+      "September": "Septiembre",
+      "October": "Octubre",
+      "November": "Noviembre",
+      "December": "Diciembre"
+    }
+  },
+  "MANUAL-SCAN": {
+    "title": "Escaneo manual",
+    "barcode": "Código de barras",
+    "description": "¿Cámara rota o de baja calidad? ¿Poca luz? No te preocupes, ahora puedes buscar manualmente cualquier producto introduciendo su codigo de barras en la barra superior."
+  },
+  "EDIT-USER-WARNINGS": {
+    "title": "Edita tus avisos y preferencias",
+    "allergens": "Alergias",
+    "other-preferences": "Otras preferencias"
+  }
+}
