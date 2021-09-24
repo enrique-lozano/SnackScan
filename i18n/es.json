@@ -50,8 +50,9 @@
   "REGISTER": {
     "register": "Registrarse",
     "already_a_user": "Ya tienes cuenta?",
-    "terms1": "He leido y acepto ",
-    "terms2": "los terminos y condiciones"
+    "terms1": "He leido y acepto los ",
+    "terms2": "términos de uso",
+    "terms3": "política de privacidad"
   },
   "RESET-PASSWORD": {
     "reset-password": "Recuperar contraseña",
@@ -62,6 +63,9 @@
     "sort-password": "La contraseña debe tener al menos 6 carácteres",
     "input-incomplete": "Por favor, rellena todos los campos del formulario",
     "not-verified": "La cuenta no esta verificada. Por favor, compruebe el correo"
+  },
+  "PREMIUM": {
+    "go-premium": "Hazte premium"
   },
   "PRODUCT-DATA": {
     "not-complete-warning": "Este producto no esta completo y por tanto, su información es menos fiable. Ayuda a completar este producto pinchando en este mensaje",
@@ -167,6 +171,7 @@
     "copy-incorrect": "Error al copiar el ID del usuario",
     "donation": "Dona Open Food Facts",
     "about-product-analyzer": "Sobre el analizador de productos",
+    "error-reporting": "Reportar erores / Sugerencias",
     "delete-cache": "Borra la cache de la app",
     "logout": "Cerrar sesión",
     "delete-account": "Eliminar mi cuenta",

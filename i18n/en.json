@@ -49,8 +49,9 @@
   "REGISTER": {
     "register": "Register",
     "already_a_user": "Already have an account?",
-    "terms1": "I've read the ",
-    "terms2": "terms and conditions"
+    "terms1": "I've read and I accept the ",
+    "terms2": "terms of use",
+    "terms3": "privacy policy"
   },
   "RESET-PASSWORD": {
     "reset-password": "Reset password",
@@ -61,6 +62,9 @@
     "sort-password": "The password should have at least 6 characters",
     "input-incomplete": "Please, complete all the fields in the form",
     "not-verified": "Account is not verified. Please, check your inbox"
+  },
+  "PREMIUM": {
+    "go-premium": "Go premium"
   },
   "PRODUCT-DATA": {
     "not-complete-warning": "This product is not complete and therefore your information is less reliable. Help to complete this product by clicking on this message",
@@ -149,10 +153,10 @@
       "not-found-description": "Category can not be specified"
     },
     "risk": {
-      "low": "Riesgo bajo",
-      "medium": "Riesgo moderado",
-      "high": "Riesgo alto",
-      "unknown": "Riesgo desconocido"
+      "low": "Low risk",
+      "medium": "Moderate risk",
+      "high": "High risk",
+      "unknown": "Unknows risk"
     }
   },
   "SETTINGS": {
@@ -166,6 +170,7 @@
     "copy-incorrect": "Unable to copy the user ID",
     "donation": "Donate to Open Food Facts",
     "about-product-analyzer": "About the product analyzer",
+    "error-reporting": "Error reporting / Sugestions",
     "delete-cache": "Delete the cache",
     "logout": "Log out",
     "delete-account": "Delete my account",
