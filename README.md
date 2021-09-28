@@ -33,6 +33,7 @@
 
 - <a href="#translation">Help translating the application.</a>
 - <a href="#questions">Ask questions, write suggestions...</a>
+- <a href="#additives">Complete the additives information</a>
 
 ## Translation
 
@@ -41,6 +42,28 @@
 The translations are in a json format <a href="https://github.com/enriqueloz88/SnackScan/tree/main/i18n">here</a>. To generate a new language you only have to create a new file _lang.json_ where you must replace "lang" by the code of the language in question. You can extract these codes from this <a href="https://www.loc.gov/standards/iso639-2/php/code_list.php">link</a> looking at the ISO 639-1 Code column.
 
 It is important that all new json files generated have exactly the same keys as the files already exposed. It is recommended to look at the _en.json_ file for reference. You can also modify any existing translation file, if you consider that any translation can be improved.
+
+## Additives
+
+Help with the additives information is very easy. You just need to open the file _additives-tags.json_ of this project and do the changes that you consider necesary. Please, bear in mind that if you copy some literal content from internet you must add the source in the sources array. An example of an additive object is shown bellow:
+
+```
+  {
+    "code": "E102",
+    "description": {
+      "es": "text-in-spanish....",
+      "en": "This compound dissolves in water, turning more yellow as its amount increases in solution. It is commonly used in desserts, gum, gummies, energy drinks and snacks. <br> Many colorants of this family (not those authorized for food use) have been shown to be carcinogenic, although there is no evidence of this being so. However, there is evidence that this compound mixed with other additives can cause hyperactivity in minors"
+    },
+    "name": {
+      "en": "Tartrazine",
+      "es": "Tartrazina"
+    },
+    "toxicity": "High",
+    "sources": [
+      "McCann y col. (2007) 'Food additives and hyperactive behaviour in 3-year-old and 8/9-year-old children in the community: a randomised, double-blinded, placebo-controlled trial.' Lancet. 370(9598):1560-7."
+    ]
+  },
+```
 
 ## Questions
 
