@@ -77,6 +77,7 @@
     "palm-oil-presence": "Palm oil presence",
     "palm-oil-free": "Palm oil free",
     "header-valoration": {
+      "tap-to-see": "Tap to see the note (unreliable)",
       "very-bad": "Very bad",
       "bad": "Bad",
       "normal": "Acceptable",
@@ -85,6 +86,7 @@
       "no-data": "Insufficient data"
     },
     "nutriments": {
+      "title": "Composition",
       "energy": "Calories",
       "proteins": "Proteins",
       "fats": "Fats",
@@ -98,6 +100,7 @@
       "magnesium": "Magnesium",
       "calcium": "Calcium"
     },
+    "product-info": "Product information",
     "nova-group": {
       "1": "Unprocessed or minimally processed foods",
       "2": "Processed culinary ingredients",
@@ -108,6 +111,11 @@
         "title": "NOVA Groups"
       }
     },
+    "ingredients": "Ingredients",
+    "possible-allergens": "Allergies that this product can cause",
+    "no-allergens": "No ingredients that can cause allergy have been identified",
+    "no-additives-found": "No additives could be found",
+    "additive-free": "Good! It seems that this product is free of additives",
     "allergens": {
       "eggs": "Eggs",
       "milk": "Milk",
@@ -124,7 +132,13 @@
       "sesame-seeds": "Sesame seeds",
       "sulphur-dioxide-and-sulphites": "Sulphites"
     },
+    "buttons": {
+      "scan-other-product": "Scan another product",
+      "edit-product": "Edit the product in Open Food Facts",
+      "compare-product": "Compare with another product"
+    },
     "footer": {
+      "go-to-product-page": "Go to the product or manufacturer webpage",
       "provider": "Information provided thanks to",
       "provider-link": "Open Food Facts",
       "disclaimer": "This section is completely impartial. No brand has paid to have a better rating here.",
@@ -133,6 +147,8 @@
   },
   "ADDITIVES": {
     "additive": "Additive",
+    "additives": "Additives",
+    "sources": "Sources",
     "types": {
       "colour": "Colour",
       "preservative": "Preservative",

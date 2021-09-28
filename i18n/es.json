@@ -78,6 +78,7 @@
     "palm-oil-presence": "Presencia de aceite de palma",
     "palm-oil-free": "Libre de aceite de palma",
     "header-valoration": {
+      "tap-to-see": "Toca para ver la nota (poco fiable)",
       "very-bad": "Muy malo",
       "bad": "Mediocre",
       "normal": "Aceptable",
@@ -86,6 +87,7 @@
       "no-data": "Datos insuficientes"
     },
     "nutriments": {
+      "title": "Composición",
       "energy": "Calorías",
       "proteins": "Proteinas",
       "fats": "Grasas",
@@ -99,6 +101,7 @@
       "magnesium": "Magnesio",
       "calcium": "Calcio"
     },
+    "product-info": "Información del producto",
     "nova-group": {
       "1": "Alimentos minimamente procesados",
       "2": "Alimentos culinarios procesados",
@@ -109,6 +112,11 @@
         "title": "Grupos NOVA"
       }
     },
+    "ingredients": "Ingredientes",
+    "possible-allergens": "Alergias que puede causar este producto",
+    "no-allergens": "No se han identificado ingredientes que puedan causar alergía",
+    "no-additives-found": "No se han podido encontrar aditivos",
+    "additive-free": "Bien! Parece que este producto está libre de aditivos",
     "allergens": {
       "eggs": "Huevos",
       "milk": "Lácteos",
@@ -125,7 +133,13 @@
       "sesame-seeds": "Semillas de sésamo",
       "sulphur-dioxide-and-sulphites": "Sulfuros"
     },
+    "buttons": {
+      "scan-other-product": "Escanea otro producto",
+      "edit-product": "Edita el producto en Open Food Facts",
+      "compare-product": "Comparar con otro producto"
+    },
     "footer": {
+      "go-to-product-page": "Ir a la página del producto o del fabricante",
       "provider": "Informacion obtenida gracias a",
       "provider-link": "Open Food Facts",
       "disclaimer": "Esta seccion es completamente imparcial. Ninguna marca ha pagado por tener mejor valoración aqui.",
@@ -134,6 +148,8 @@
   },
   "ADDITIVES": {
     "additive": "Aditivo",
+    "additives": "Aditivos",
+    "sources": "Fuentes",
     "types": {
       "colour": "Colorante",
       "preservative": "Conservante",
