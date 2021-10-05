@@ -176,6 +176,10 @@
       "unknown": "Riesgo desconocido"
     }
   },
+  "CATEGORY-DETAILS": {
+    "title": "Categoría",
+    "go-to-open-food-facts": "Ver más detalles de la categoría en Open Food Facts"
+  },
   "SETTINGS": {
     "title": "Ajustes",
     "user-id": "ID del usuario",
@@ -189,6 +193,9 @@
     "about-product-analyzer": "Sobre el analizador de productos",
     "error-reporting": "Reportar erores / Sugerencias",
     "delete-cache": "Borra la cache de la app",
+    "delete-cache-header1": "¿Borrar la cache de la app?",
+    "delete-cache-message1": "Esta acción solo es conveniente en el caso de que hayas editado algún producto en Open Food Facts. Al eliminar la cache se recalculará de nuevo la valoración del producto cuando entres en él.",
+    "delete-cache-correctly": "Cache borrada correctamente. Reinicia la app.",
     "logout": "Cerrar sesión",
     "delete-account": "Eliminar mi cuenta",
     "delete-account-header1": "Alto ahí padawan⚠️⚠️",

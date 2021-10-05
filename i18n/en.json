@@ -175,6 +175,10 @@
       "unknown": "Unknows risk"
     }
   },
+  "CATEGORY-DETAILS": {
+    "title": "Category",
+    "go-to-open-food-facts": "See more details of this category in Open Food Facts"
+  },
   "SETTINGS": {
     "title": "Settings",
     "user-id": "User ID",
@@ -188,6 +192,9 @@
     "about-product-analyzer": "About the product analyzer",
     "error-reporting": "Error reporting / Sugestions",
     "delete-cache": "Delete the cache",
+    "delete-cache-header1": "Delete the app cache?",
+    "delete-cache-message1": "This action is only convenient if you have edited a product in Open Food Facts. Deleting the cache will recalculate the evaluation of the product when you enter it.",
+    "delete-cache-correctly": "Cache deleted correctly. Restart the app",
     "logout": "Log out",
     "delete-account": "Delete my account",
     "delete-account-header1": "Stop there padawan⚠️⚠️",
