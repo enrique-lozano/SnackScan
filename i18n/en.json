@@ -226,13 +226,19 @@
     }
   },
   "COMPARE-PRODUCTS": {
-    "title": "Product comparator"
+    "title": "Product comparator",
+    "select-products": "Select two products to go to the comparation",
+    "no-latest-products": "Products you have recently viewed or scanned will appear here",
+    "start-scan": "Scan a product to start",
+    "scan2": "Scan a product to continue",
+    "go-to-comparison": "Go to the comparison"
   },
   "SAVED-PRODUCTS": {
     "title": "My saved products",
     "no-products": "You don't have any saved products yet. You will be able to save a product by clicking on the button in the upper right corner within the details tab of that product"
   },
   "STATISTICS": {
+    "title": "Statistics",
     "MONTHS": {
       "January": "January",
       "February": "February",
