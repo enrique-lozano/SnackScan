@@ -32,7 +32,7 @@
 <!-- TABLE OF CONTENTS -->
 
 - <a href="#translation">Help translating the application.</a>
-- <a href="#questions">Ask questions, write suggestions...</a>
+- <a href="#questions">Ask questions, report issues, write suggestions...</a>
 - <a href="#additives">Complete the additives information</a>
 
 ## Translation
