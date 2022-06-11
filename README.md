@@ -24,7 +24,7 @@
   <h3 align="center">SnackScan - Official repository</h3>
 
   <p>
-    Welcome to the official repository of the most complete purchase management application in the market. In this repository you can collaborate with the project by helping us to complete translations or information about additives. You can also ask questions, make suggestions, report errors... For all that, check the following <a href="https://github.com/enriqueloz88/SnackScan/issues">link</a>. There you will see a list of suggestions for improvement, as well as known bugs. You can add new issues, as long as no other user has already posted the same issue.
+    Welcome to the official repository of the most complete purchase management application in the market. In this repository you can collaborate with the project by helping us to complete translations or information about additives. <br/> <br/>You can also ask questions, make suggestions, report errors... For all that, check the following <a href="https://github.com/enriqueloz88/SnackScan/issues">link</a>. There you will see a list of suggestions for improvement, as well as known bugs. You can add new issues, as long as no other user has already posted the same issue.
   </p>
 </p>
 
