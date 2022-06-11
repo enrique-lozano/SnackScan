@@ -24,31 +24,33 @@
   <h3 align="center">SnackScan - Official repository</h3>
 
   <p>
-    Welcome to the official repository of the most complete purchase management application in the market. What you will be able to do through this repository is:
-    <br />
+    Welcome to the official repository of the most complete purchase management application in the market. In this repository you can collaborate with the project by helping us to complete translations or information about additives. You can also ask questions, make suggestions, report errors... For all that, check the following <a href="https://github.com/enriqueloz88/SnackScan/issues">link</a>. There you will see a list of suggestions for improvement, as well as known bugs. You can add new issues, as long as no other user has already posted the same issue.
   </p>
 </p>
-
-<!-- TABLE OF CONTENTS -->
-
-- <a href="#translation">Help translating the application.</a>
-- <a href="#questions">Ask questions, report issues, write suggestions...</a>
-- <a href="#additives">Complete the additives information</a>
 
 [<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"
      alt="Get it on Google Play"
      height="80">](https://play.google.com/store/apps/details?id=com.snackscan.app)
      
+<!-- CONTRIBUTING -->
 
-## Translation
+## Contributing 🙋🏻
 
-#### 🔣🔣🔣🔣🔣🔣
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+### Translation
 
 The translations are in a json format <a href="https://github.com/enriqueloz88/SnackScan/tree/main/i18n">here</a>. To generate a new language you only have to create a new file _lang.json_ where you must replace "lang" by the code of the language in question. You can extract these codes from this <a href="https://www.loc.gov/standards/iso639-2/php/code_list.php">link</a> looking at the ISO 639-1 Code column.
 
 It is important that all new json files generated have exactly the same keys as the files already exposed. It is recommended to look at the _en.json_ file for reference. You can also modify any existing translation file, if you consider that any translation can be improved.
 
-## Additives
+### Additives
 
 Help with the additives information is very easy. You just need to open the file _additives-tags.json_ of this project and do the changes that you consider necesary. Please, bear in mind that if you copy some literal content from internet you must add the source in the sources array. An example of an additive object is shown bellow:
 
@@ -69,24 +71,6 @@ Help with the additives information is very easy. You just need to open the file
     ]
   },
 ```
-
-## Questions
-
-#### ❓❓❓❓❓❓
-
-See the [open issues](https://github.com/enriqueloz88/SnackScan/issues) for a list of proposed features (and known issues). You could also create new ones.
-
-<!-- CONTRIBUTING -->
-
-## Contributing 🙋🏻
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 <!-- CONTACT -->
 
