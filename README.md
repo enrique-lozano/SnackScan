@@ -72,7 +72,7 @@ Help with the additives information is very easy. You just need to open the file
   },
 ```
 
-To add a new paragraph in the additive description, don't use \n or similar, use the `<br>` tag
+To add a new paragraph in the additive description, don't use \n or similar, use the `<br>` tag. If you add new languages in the previous section, you can also do it here, both for the _name_ and _description_ attributes. Remember that these new languages will always be optional attributes, the only mandatory language is English.
 
 <!-- CONTACT -->
 
