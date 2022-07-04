@@ -19,7 +19,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-    <img src="appIcon.png" alt="Logo" width="80" height="80">
+    <img src="resources/icon.png" alt="Logo" width="80" height="80">
 
   <h3 align="center">SnackScan - Official repository</h3>
 
