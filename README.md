@@ -31,7 +31,7 @@
 [<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"
      alt="Get it on Google Play"
      height="80">](https://play.google.com/store/apps/details?id=com.snackscan.app)
-     
+
 <!-- CONTRIBUTING -->
 
 ## Contributing 🙋🏻
@@ -52,7 +52,7 @@ It is important that all new json files generated have exactly the same keys as 
 
 ### Additives
 
-Help with the additives information is very easy. You just need to open the file _additives-tags.json_ of this project and do the changes that you consider necesary. Please, bear in mind that if you copy some literal content from internet you must add the source in the sources array. An example of an additive object is shown bellow:
+Help with the additives information is very easy. You just need to open the file _additives.ts_ of this project and do the changes that you consider necesary. Please, bear in mind that if you copy some literal content from internet you must add the source in the sources array. An example of an additive object is shown bellow:
 
 ```
   {
@@ -71,6 +71,8 @@ Help with the additives information is very easy. You just need to open the file
     ]
   },
 ```
+
+To add a new paragraph in the additive description, don't use \n or similar, use the `<br>` tag
 
 <!-- CONTACT -->
 
