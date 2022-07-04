@@ -1,7 +1,22 @@
 {
+  "GENERAL": {
+    "confirm": "Ok!",
+    "cancel": "Cancel",
+    "or": "or",
+    "understood": "Understood",
+    "done": "Done",
+    "continue": "Continue",
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "share": "Share",
+    "save": "Save",
+    "loading": "Loading"
+  },
   "HOME": {
     "welcome": {
-      "default": "Welcome back,"
+      "hello": "Hello {{x}},",
+      "default": "Welcome to SnackScan"
     },
     "links": {
       "saved": "Saved products",
@@ -15,30 +30,29 @@
       "correct": "Name changed correctly"
     },
     "no-history": "You haven't scanned any products yet. Search for a barcode and scan it by pressing the button below",
-    "last-scans": "Last scanned products"
-  },
-  "GENERAL": {
-    "confirm": "Ok!",
-    "cancel": "Cancel",
-    "or": "or",
-    "understood": "Understood",
-    "done": "Done",
-    "continue": "Continue"
+    "last-scans": "Scanned products"
   },
   "INTRO": {
-    "slide1-title": "Welcome to Snackscan",
-    "slide1-description": "With us you will be able to scan more than 1 and a half million products thanks to a database open and managed by all. You will be able to establish allergen alerts, consult additives and alternatives to a product, prepare shopping lists , see the nutrients of a product and much more. Join! ",
-    "go-to-register": "Register",
+    "start": "Start",
+    "skip": "Skip",
+    "next": "Next",
+    "sl1Title": "Welcome to Snackscan",
+    "sl1Descr": "With us you will be able to scan more than 1.5 million products thanks to an open database managed by everyone. You will be able to establish allergen alerts, consult additives and alternatives to a product, create shopping lists, view the nutrients of a product and much more. Join!",
+    "go-to-register": "Register me",
     "go-to-login": "I already have an account",
-    "slide2-title": "Select if you have any allergies",
-    "slide2-description": "This way we can notify you when you scan or consult a product that may not suit you",
-    "slide3-title": "Vegan? Vegetarian?",
-    "slide3-description": "Tell us if you want us to notify you in the event that we find any product not suitable for vegetarians or vegans.",
+    "sl2Title": "Select if you have any allergies",
+    "sl2Descr": "This way we can notify you when you scan or consult a product that may not suit you",
+    "sl3Title": "Vegan? Vegetarian?",
+    "sl3Descr": "Tell us if you want us to notify you if we find a product that is not suitable for vegetarians or vegans.",
     "im-vegan": "I am vegan",
-    "im-vegetarian": "I am a vegetarian"
+    "im-vegetarian": "I am a vegetarian",
+    "finished": "All done!",
+    "finished.description": "You are now ready to start using SnackScan. You can start scanning products without registering, however, to access all the features you will need to log in. You can log in anytime later"
   },
   "LOGIN": {
     "login": "Log In",
+    "mandatory": "Login is required to go to this page",
+    "start-without-login": "Start anonymously",
     "email": "Email",
     "password": "Password",
     "forgot_pass": "Forgot password?",
@@ -57,25 +71,46 @@
     "reset-password": "Reset password",
     "description": "Enter your email below and we will send you instructions to recover your password"
   },
+  "VERIFY-EMAIL": {
+    "title": "Check your inbox",
+    "description": "We have sent a verification email to your email with a link. Click on that link and log in again. Check the Spam folder if you can't find the message."
+  },
   "AUTH-ERRORS": {
     "conditions": "You have to accept the terms and conditions to continue",
     "sort-password": "The password should have at least 6 characters",
     "input-incomplete": "Please, complete all the fields in the form",
     "not-verified": "Account is not verified. Please, check your inbox"
   },
-  "PREMIUM": {
-    "go-premium": "Go premium"
+  "GO-PREMIUM": {
+    "title": "Go Premium",
+    "description": "See the advantages of all our premium plans. Choose one and cancel whenever you want.",
+    "add": "Not premium yet? Click here and discover all the advantages of being a SnackScan Premium member",
+    "shopping-lists-limit": "Maximum shopping lists",
+    "share-shopping-lists-limit": "Users/Shopping List",
+    "support": "Developer support",
+    "ad-free": "Ad-free",
+    "auto-backup": "Backup your scanned products automatically",
+    "annual-price": "Price per year",
+    "monthly-price": "Price per month",
+    "return-to-free": "To return to the free plan cancel the subscriptions you currently have active",
+    "current-plan": "This is your current plan. You can cancel without obligation at any time",
+    "current-free-plan": "You are here on the basic plan right now",
+    "admin-subscriptions": "Manage subscriptions"
   },
   "PRODUCT-DATA": {
+    "title": "Product details",
     "not-complete-warning": "This product is not complete and therefore your information is less reliable. Help to complete this product by clicking on this message",
     "allergen-warning": "This product could cause allergies",
     "diet-warning": "This product does not fit with your diet",
     "vegan-product": "Vegan product",
-    "vegetarian-product": "Vegetarian product",
     "non-vegan-product": "Non-vegan product",
+    "vegan-product-unknown": "Unknown if it is vegan",
+    "vegetarian-product": "Vegetarian product",
     "non-vegetarian-product": "Non-vegetarian product",
+    "vegetarian-product-unknown": "Unknown if it is vegetarian",
     "palm-oil-presence": "Palm oil presence",
     "palm-oil-free": "Palm oil free",
+    "palm-oil-unknown": "Unknown if it has palm oil",
     "header-valoration": {
       "tap-to-see": "Tap to see the note (unreliable)",
       "very-bad": "Very bad",
@@ -111,6 +146,15 @@
         "title": "NOVA Groups"
       }
     },
+    "certificates": {
+      "utz-certified": "UTZ certificate",
+      "rainforest-alliance": "Rainforest Alliance Certified",
+      "roundtable-on-sustainable-palm-oil": "RSPO - Sustainable Palm Oil",
+      "fsc": "FSC product",
+      "eco": "Ecological product",
+      "eu-organic": "EU certified organic product",
+      "fairtrade-international": "Fair Trade Seal"
+    },
     "ingredients": "Ingredients",
     "possible-allergens": "Allergies that this product can cause",
     "no-allergens": "No ingredients that can cause allergy have been identified",
@@ -134,7 +178,7 @@
     },
     "buttons": {
       "scan-other-product": "Scan another product",
-      "edit-product": "Edit the product in Open Food Facts",
+      "edit-product": "Edit the product in O.F.F",
       "compare-product": "Compare with another product"
     },
     "footer": {
@@ -183,9 +227,10 @@
     "title": "Settings",
     "user-id": "User ID",
     "display-name": "User name",
+    "display-name.description": "Let us greet you properly!",
     "language": "Language",
     "scan-mode": "Prefered scan mode",
-    "user-nutri-preferences": "Edit your nutritionals warnings",
+    "no-auth": "Not authenticated",
     "copy-correct": "User ID copied successfully",
     "copy-incorrect": "Unable to copy the user ID",
     "donation": "Donate to Open Food Facts",
@@ -196,18 +241,32 @@
     "delete-cache-message1": "This action is only convenient if you have edited a product in Open Food Facts. Deleting the cache will recalculate the evaluation of the product when you enter it.",
     "delete-cache-correctly": "Cache deleted correctly. Restart the app",
     "logout": "Log out",
+    "logout.description": "You will still keep your data on your device, but you will lose the ability to back up to the cloud",
+    "logout.success": "Successfully logged out",
     "delete-account": "Delete my account",
     "delete-account-header1": "Stop there padawan⚠️⚠️",
     "delete-account-message1": "Are you sure you want to continue? All your data will be permanently deleted and cannot be recovered",
     "delete-account-header2": "The last step⚠️⚠️",
     "delete-account-message2": "By deleting an account you will delete all your stored personal data. Your inventories, products and shopping lists will be deleted and cannot be recovered. Do you agree?",
+    "delete-account-toast": "Account successfully deleted. Please restart the app",
     "LICENSES": {
       "title": "Licenses",
       "icons": "Icons",
       "text1": "The icons of this app have been extracted from",
       "text2": "We should mention the following authors:",
       "db": "Source of the data"
+    },
+    "ABOUT-US": {
+      "title": "About us",
+      "product-analyzer-info": "About the product analyzer",
+      "contact": "Contact"
     }
+  },
+  "ORDER-PRODUCTS": {
+    "title": "Order products",
+    "alphabetically": "Alphabetically",
+    "score": "By score",
+    "date": "By date"
   },
   "SHOPPING-LISTS": {
     "title": "My shopping lists",
@@ -215,14 +274,26 @@
     "products": "Products",
     "placeholder": "Create a new shopping list",
     "no-lists": "You don't have a shopping list yet. Create one simply by entering an identifying name in the bottom bar",
+    "edit": {
+      "title": "Edit List",
+      "name": "List name",
+      "users": "List Users",
+      "admin": "Administrator",
+      "collab": "Collaborator",
+      "delete": "Delete list",
+      "delete.msg": "This action is irreversible. All users with access to this list will also lose access to it",
+      "delete.correct": "List deleted successfully",
+      "success": "List edited successfully"
+    },
     "share": {
-      "title": "Share this list",
+      "title": "Share list",
       "message": "Enter the ID of the user with whom you want to share this list, in order to share this list and all its products.",
       "correct": "List shared correctly"
     },
     "list-details": {
       "add-product-placeholder": "Add a product",
-      "delete-checked": "Are you sure you want to delete the checked products?"
+      "delete-checked": "Are you sure you want to delete the checked products?",
+      "no-products": "The shopping list is currently empty. Add some items by writing them at the bottom"
     }
   },
   "COMPARE-PRODUCTS": {
@@ -237,31 +308,23 @@
     "title": "My saved products",
     "no-products": "You don't have any saved products yet. You will be able to save a product by clicking on the button in the upper right corner within the details tab of that product"
   },
-  "STATISTICS": {
-    "title": "Statistics",
-    "MONTHS": {
-      "January": "January",
-      "February": "February",
-      "March": "March",
-      "April": "April",
-      "May": "May",
-      "June": "June",
-      "July": "July",
-      "August": "August",
-      "September": "September",
-      "October": "October",
-      "November": "November",
-      "December": "December"
+  "TOOLS": {
+    "title": "Tools",
+    "STATISTICS": {
+      "title": "Usage Statistics",
+      "description": "See how you've used SnackScan over time"
+    },
+    "MANUAL-SCAN": {
+      "title": "Manual Scan",
+      "barcode": "Barcode",
+      "instructions": "Enter a valid barcode below",
+      "description": "Broken or poor quality camera? Low light? Don't worry, you can manually search for any product by entering its barcode"
+    },
+    "EDIT-USER-WARNINGS": {
+      "title": "Notifications and Preferences",
+      "description": "Edit your allergies and food preferences, so we can give you warnings when a product is not suitable for you",
+      "allergens": "Allergies",
+      "other-preferences": "Other preferences"
     }
-  },
-  "MANUAL-SCAN": {
-    "title": "Manual scan",
-    "barcode": "Barcode",
-    "description": "Broken or poor quality camera? Low light? Don't worry, now you can manually search for any product by entering its barcode in the top bar."
-  },
-  "EDIT-USER-WARNINGS": {
-    "title": "Edit your notices and preferences",
-    "allergens": "Allergies",
-    "other-preferences": "Other preferences"
   }
 }

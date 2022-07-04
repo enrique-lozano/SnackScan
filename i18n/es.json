@@ -1,7 +1,22 @@
 {
+  "GENERAL": {
+    "confirm": "Ok!",
+    "cancel": "Cancelar",
+    "or": "o",
+    "understood": "Entendido",
+    "done": "Hecho",
+    "continue": "Continuar",
+    "add": "Añadir",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "share": "Compartir",
+    "save": "Guardar",
+    "loading": "Cargando"
+  },
   "HOME": {
     "welcome": {
-      "default": "Bienvenido de nuevo,"
+      "hello": "Hola {{x}},",
+      "default": "Bienvenido a SnackScan"
     },
     "links": {
       "saved": "Productos guardados",
@@ -15,30 +30,29 @@
       "correct": "Nombre cambiado correctamente"
     },
     "no-history": "Aun no has escaneado ningún producto. Busca un codigo de barras y escanalo pulsando el botón inferior",
-    "last-scans": "Últimos productos escaneados"
-  },
-  "GENERAL": {
-    "confirm": "Ok!",
-    "cancel": "Cancel",
-    "or": "o",
-    "understood": "Entendido",
-    "done": "Hecho",
-    "continue": "Continuar"
+    "last-scans": "Productos escaneados"
   },
   "INTRO": {
-    "slide1-title": "Bienvenido a Snackscan",
-    "slide1-description": "Con nosotros podrás escanear mas de 1 millón y medio de productos gracias a una base de datos abierta y gestionada por todos. Podrás establecer alertas de alérgenos, consultar aditivos y alternativas a un producto, elaborar listas de la compra, ver los nutrientes de un producto y mucho mas. Unete!",
+    "start": "Empecemos",
+    "skip": "Saltar",
+    "next": "Siguiente",
+    "sl1Title": "Bienvenido a Snackscan",
+    "sl1Descr": "Con nosotros podrás escanear mas de 1 millón y medio de productos gracias a una base de datos abierta y gestionada por todos. Podrás establecer alertas de alérgenos, consultar aditivos y alternativas a un producto, elaborar listas de la compra, ver los nutrientes de un producto y mucho mas. Unete!",
     "go-to-register": "Registrarme",
     "go-to-login": "Ya tengo una cuenta",
-    "slide2-title": "Selecciona si tienes alguna alergia",
-    "slide2-description": "De esta forma podremos avisarte cuando escanees o consultes un producto que puede que no te siente bien",
-    "slide3-title": "¿Vegano? ¿Vegetariano?",
-    "slide3-description": "Indicanos si quieres que te avisemos en el caso de que encontremos algun producto no apto para vegetarianos o para veganos.",
+    "sl2Title": "Selecciona si tienes alguna alergia",
+    "sl2Descr": "De esta forma podremos avisarte cuando escanees o consultes un producto que puede que no te siente bien",
+    "sl3Title": "¿Vegano? ¿Vegetariano?",
+    "sl3Descr": "Indicanos si quieres que te avisemos en el caso de que encontremos algun producto no apto para vegetarianos o para veganos.",
     "im-vegan": "Soy vegano",
-    "im-vegetarian": "Soy vegetariano"
+    "im-vegetarian": "Soy vegetariano",
+    "finished": "Todo listo!",
+    "finished.description": "Ahora ya puedes empezar a usar SnackScan. Puedes empezar a escanear productos sin registrarte, sin embargo, para acceder a todas las funcionalidades deberás iniciar sesión. Puedes iniciar sesión en cualquier momento mas tarde"
   },
   "LOGIN": {
     "login": "Inicia Sesión",
+    "mandatory": "Es necesario iniciar sesión para ir a esta página",
+    "start-without-login": "Empezar de forma anónima",
     "email": "Email",
     "password": "Contraseña",
     "forgot_pass": "Contraseña olvidada?",
@@ -58,25 +72,47 @@
     "reset-password": "Recuperar contraseña",
     "description": "Introduce tu email a continuación y te enviaremos instrucciones para recuperar tu contraseña"
   },
+  "VERIFY-EMAIL": {
+    "title": "Comprueba tu bandeja de entrada",
+    "description": "Hemos enviado un email de verificación a tu correo con un enlace. Pulsa en ese enlace e inicia sesión de nuevo. Comprueba la carpeta de Spam si no encuentras el mensaje."
+  },
   "AUTH-ERRORS": {
     "conditions": "Por favor, acepte los terminos y condiciones para continuar",
     "sort-password": "La contraseña debe tener al menos 6 carácteres",
     "input-incomplete": "Por favor, rellena todos los campos del formulario",
     "not-verified": "La cuenta no esta verificada. Por favor, compruebe el correo"
   },
-  "PREMIUM": {
-    "go-premium": "Hazte premium"
+  "GO-PREMIUM": {
+    "title": "Hazte premium",
+    "admin": "Administra tu plan",
+    "description": "Consulta las ventajas de todos nuestros planes premium. Elige uno y cancela cuando quieras.",
+    "add": " ¿Aún no eres premium? Pincha aquí y descubre todas las ventajas de ser miembro premium de SnackScan",
+    "shopping-lists-limit": "Listas de la compra máximas",
+    "share-shopping-lists-limit": "Usuarios/Lista de la compra",
+    "support": "Apoyo al desarrollador",
+    "ad-free": "Libre de anuncios",
+    "auto-backup": "Copia de seguridad de tus productos escaneados de forma automatica",
+    "anual-price": "Precio al año",
+    "monthly-price": "Precio al mes",
+    "return-to-free": "Para volver al plan gratuito anula las subscripciones que tengas actualmente activas",
+    "current-plan": "Este es tu plan actual. Puedes cancelarlo sin compromiso en cualquier momento",
+    "current-free-plan": "Ahora mismo te encuentras aquí, en el plan básico",
+    "admin-subscriptions": "Administrar subscripciones"
   },
   "PRODUCT-DATA": {
+    "title": "Detalles del producto",
     "not-complete-warning": "Este producto no esta completo y por tanto, su información es menos fiable. Ayuda a completar este producto pinchando en este mensaje",
     "allergen-warning": "Este producto podria causarte alergía",
     "diet-warning": "Este producto no encaja con tu dieta",
     "vegan-product": "Producto vegano",
-    "vegetarian-product": "Producto vegetariano",
     "non-vegan-product": "Producto no vegano",
+    "vegan-product-unknown": "Se desconoce si es vegano",
+    "vegetarian-product": "Producto vegetariano",
     "non-vegetarian-product": "Producto no vegetariano",
+    "vegetarian-product-unknown": "Se desconoce si es vegetariano",
     "palm-oil-presence": "Presencia de aceite de palma",
     "palm-oil-free": "Libre de aceite de palma",
+    "palm-oil-unknown": "Se desconoce si posee aceite de palma",
     "header-valoration": {
       "tap-to-see": "Toca para ver la nota (poco fiable)",
       "very-bad": "Muy malo",
@@ -112,6 +148,15 @@
         "title": "Grupos NOVA"
       }
     },
+    "certificates": {
+      "utz-certified": "Certificado UTZ",
+      "rainforest-alliance": "Certificado Rainforest Alliance",
+      "roundtable-on-sustainable-palm-oil": "RSPO - Aceite de palma sostenible",
+      "fsc": "Producto FSC",
+      "eco": "Producto ecológico",
+      "eu-organic": "Producto ecológico certificado por la UE",
+      "fairtrade-international": "Sello de comercio justo"
+    },
     "ingredients": "Ingredientes",
     "possible-allergens": "Alergias que puede causar este producto",
     "no-allergens": "No se han identificado ingredientes que puedan causar alergía",
@@ -135,7 +180,7 @@
     },
     "buttons": {
       "scan-other-product": "Escanea otro producto",
-      "edit-product": "Edita el producto en Open Food Facts",
+      "edit-product": "Edita el producto en O.F.F",
       "compare-product": "Comparar con otro producto"
     },
     "footer": {
@@ -184,12 +229,13 @@
     "title": "Ajustes",
     "user-id": "ID del usuario",
     "display-name": "Nombre de usuario",
+    "display-name.description": "Dejanos saludarte como es debido!",
     "language": "Idioma",
     "scan-mode": "Modo de escaneo favorito",
-    "user-nutri-preferences": "Edita tus avisos nutricionales",
+    "no-auth": "No autenticado",
     "copy-correct": "ID copiado correctamente",
     "copy-incorrect": "Error al copiar el ID del usuario",
-    "donation": "Dona Open Food Facts",
+    "donation": "Dona a Open Food Facts",
     "about-product-analyzer": "Sobre el analizador de productos",
     "error-reporting": "Reportar erores / Sugerencias",
     "delete-cache": "Borra la cache de la app",
@@ -197,19 +243,32 @@
     "delete-cache-message1": "Esta acción solo es conveniente en el caso de que hayas editado algún producto en Open Food Facts. Al eliminar la cache se recalculará de nuevo la valoración del producto cuando entres en él.",
     "delete-cache-correctly": "Cache borrada correctamente. Reinicia la app.",
     "logout": "Cerrar sesión",
+    "logout.description": "Seguiras manteniedo tus datos en tu dispositivo, pero perderás la capacidad de hacer copias de seguridad en la nube",
+    "logout.success": "Sesión cerrada correctamente",
     "delete-account": "Eliminar mi cuenta",
     "delete-account-header1": "Alto ahí padawan⚠️⚠️",
     "delete-account-message1": "¿Estas seguro de que quieres continuar? Todos tus datos serán borrados permanentemente y no podrán ser recuperados",
     "delete-account-header2": "Un último paso⚠️⚠️",
     "delete-account-message2": "Al eliminar una cuenta eliminarás todos tus datos personales almacenados. Tus inventarios, productos y listas de la compra serán borrados y no podrán ser recuperados. ¿Estas de acuerdo?",
-    "delete-account-toast": "Por favor, intenta iniciar sesión de nuevo para comprobar que tu cuenta ha sido eliminada correctamente",
+    "delete-account-toast": "Cuenta eliminada correctamente. Por favor, reinicia la app",
     "LICENSES": {
       "title": "Licencias",
       "icons": "Iconos",
       "text1": "Los iconos usados en esta aplicación han sido extraidos desde",
       "text2": "Hemos de destacar a los siguientes autores:",
       "db": "Fuente de los datos"
+    },
+    "ABOUT-US": {
+      "title": "Sobre nosotros",
+      "product-analyzer-info": "Sobre el analizador de productos",
+      "contact": "Contacto"
     }
+  },
+  "ORDER-PRODUCTS": {
+    "title": "Ordenar productos",
+    "alphabetically": "Alfabéticamente",
+    "score": "Por puntuación",
+    "date": "Por fecha"
   },
   "SHOPPING-LISTS": {
     "title": "Mis listas de la compra",
@@ -217,14 +276,26 @@
     "products": "Productos",
     "placeholder": "Crea una lista de la compra",
     "no-lists": "Aun no tienes ninguna lista de la compra. Crea una simplemente introduciendo un nombre identificativo en la barra inferior",
+    "edit": {
+      "title": "Editar lista",
+      "name": "Nombre de la lista",
+      "users": "Usuarios de la lista",
+      "admin": "Administrador",
+      "collab": "Colaborador",
+      "delete": "Eliminar lista",
+      "delete.msg": "Esta acción es irreversible. Todos los usuarios con acceso a esta lista perderan también el acceso a la misma",
+      "delete.correct": "Lista eliminada correctamente",
+      "success": "Lista editada correctamente"
+    },
     "share": {
-      "title": "Compartir esta lista",
+      "title": "Compartir lista",
       "message": "Introduce el ID del usuario en cuestión para compartir esta lista y todas sus productos.",
       "correct": "Elemento compartido correctamente"
     },
     "list-details": {
       "add-product-placeholder": "Añade un producto",
-      "delete-checked": "¿Seguro que quieres eliminar los productos seleccionados?"
+      "delete-checked": "¿Seguro que quieres eliminar los productos seleccionados?",
+      "no-products": "La lista de la compra esta actualmente vacia. Añade algunos elementos escribiendolos en la parte inferior"
     }
   },
   "COMPARE-PRODUCTS": {
@@ -239,31 +310,23 @@
     "title": "Mis productos guardados",
     "no-products": "Aún no tienes ningún producto guardado. Pordrás guardar un producto pulsando en el botón de la esquina superior derecha dentro de la pestaña de detalles de ese producto"
   },
-  "STATISTICS": {
-    "title": "Estadísticas de uso",
-    "MONTHS": {
-      "January": "Enero",
-      "February": "Febrero",
-      "March": "Marzo",
-      "April": "Abril",
-      "May": "Mayo",
-      "June": "Junio",
-      "July": "Julio",
-      "August": "Agosto",
-      "September": "Septiembre",
-      "October": "Octubre",
-      "November": "Noviembre",
-      "December": "Diciembre"
+  "TOOLS": {
+    "title": "Herramientas",
+    "STATISTICS": {
+      "title": "Estadísticas de uso",
+      "description": "Consulta como has usuado SnackScan a lo largo del tiempo"
+    },
+    "MANUAL-SCAN": {
+      "title": "Escaneo manual",
+      "barcode": "Código de barras",
+      "instructions": "Introduce un código de barras valido a continuación",
+      "description": "¿Cámara rota o de baja calidad? ¿Poca luz? No te preocupes, puedes buscar manualmente cualquier producto introduciendo su codigo de barras manualmente"
+    },
+    "EDIT-USER-WARNINGS": {
+      "title": "Avisos y preferencias",
+      "description": "Edita tus alergías y preferencias alimentarias, para que podamos darte avisos cuando un producto no es adecuado para ti",
+      "allergens": "Alergias",
+      "other-preferences": "Otras preferencias"
     }
-  },
-  "MANUAL-SCAN": {
-    "title": "Escaneo manual",
-    "barcode": "Código de barras",
-    "description": "¿Cámara rota o de baja calidad? ¿Poca luz? No te preocupes, ahora puedes buscar manualmente cualquier producto introduciendo su codigo de barras en la barra superior."
-  },
-  "EDIT-USER-WARNINGS": {
-    "title": "Edita tus avisos y preferencias",
-    "allergens": "Alergias",
-    "other-preferences": "Otras preferencias"
   }
 }
