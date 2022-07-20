@@ -193,6 +193,7 @@
     "additive": "Additive",
     "additives": "Additives",
     "sources": "Sources",
+    "insufficient_data": " Ops! It seems that there is little information in our database about this additive. Click here to see how to collaborate with us and help us improve this page",
     "types": {
       "colour": "Colour",
       "preservative": "Preservative",
@@ -203,14 +204,14 @@
       "sweetener": "Sweetener",
       "flavour": "Flavour",
       "not-found": "",
-      "colour-description": "Provides a different color than the product would have naturally",
-      "preservative-description": "Stops or minimizes the deterioration caused by the presence of different types of microorganisms (bacteria, yeasts and molds)",
-      "antioxidant-description": "Decreases the oxidation reaction that occurs normally in food",
-      "stabilizer-description": "Helps to change the texture of a product or to control a certain chemical reaction that may occur during its processing",
-      "flavour-enhancer-description": "Increases the flavor of food",
-      "antibiotic-description": "Chemical substance produced by a living being or synthetic derivative, which kills or prevents the growth of certain classes of sensitive microorganisms",
-      "sweetener-description": "They give a sweet taste, being used mainly as substitutes for sugar",
-      "not-found-description": "Category can not be specified"
+      "colour.description": "Provides a different color than the product would have naturally",
+      "preservative.description": "Stops or minimizes the deterioration caused by the presence of different types of microorganisms (bacteria, yeasts and molds)",
+      "antioxidant.description": "Decreases the oxidation reaction that occurs normally in food",
+      "stabilizer.description": "Helps to change the texture of a product or to control a certain chemical reaction that may occur during its processing",
+      "flavour-enhancer.description": "Increases the flavor of food",
+      "antibiotic.description": "Chemical substance produced by a living being or synthetic derivative, which kills or prevents the growth of certain classes of sensitive microorganisms",
+      "sweetener.description": "They give a sweet taste, being used mainly as substitutes for sugar",
+      "not-found.description": "Category can not be specified"
     },
     "risk": {
       "low": "Low risk",
@@ -325,6 +326,11 @@
       "description": "Edit your allergies and food preferences, so we can give you warnings when a product is not suitable for you",
       "allergens": "Allergies",
       "other-preferences": "Other preferences"
+    },
+    "ADDITIVES": {
+      "title": "Food additives",
+      "description": "Search and view details about any food additive",
+      "search": "Search an additive"
     }
   }
 }

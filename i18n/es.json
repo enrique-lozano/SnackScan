@@ -195,6 +195,7 @@
     "additive": "Aditivo",
     "additives": "Aditivos",
     "sources": "Fuentes",
+    "insufficient_data": "  Ops! Parece que hay poca información en nuestra base de datos sobre este aditivo. Pulsa aquí para ver como colaborar con nosotros y ayudarnos a mejorar esta página",
     "types": {
       "colour": "Colorante",
       "preservative": "Conservante",
@@ -205,14 +206,14 @@
       "sweetener": "Edulcorante",
       "flavour": "Aroma",
       "not-found": "",
-      "colour-description": "Proporciona un color diferente al que tendría el producto de forma natural",
-      "preservative-description": "Detiene o minimiza el deterioro causado por la presencia de diferentes tipos de microorganismos (bacterias, levaduras y mohos)",
-      "antioxidant-description": "Disminuye la reacción de oxidación que se produce de forma habitual en los alimentos",
-      "stabiliser-description": "Ayuda a cambiar la textura de un producto o a controlar cierta reacción química que se pueda producir durante su procesado",
-      "flavour-enhancer-description": "Aumenta el sabor de los alimentos",
-      "antibiotic-description": "Sustancia química producida por un ser vivo o derivado sintético, que mata o impide el crecimiento de ciertas clases de microorganismos sensibles",
-      "sweetener-description": "Dan un sabor dulce, empleandose sobre todo como sustitutos del azúcar",
-      "not-found-description": "No se ha podido identificar la categoría"
+      "colour.description": "Proporciona un color diferente al que tendría el producto de forma natural",
+      "preservative.description": "Detiene o minimiza el deterioro causado por la presencia de diferentes tipos de microorganismos (bacterias, levaduras y mohos)",
+      "antioxidant.description": "Disminuye la reacción de oxidación que se produce de forma habitual en los alimentos",
+      "stabiliser.description": "Ayuda a cambiar la textura de un producto o a controlar cierta reacción química que se pueda producir durante su procesado",
+      "flavour-enhancer.description": "Aumenta el sabor de los alimentos",
+      "antibiotic.description": "Sustancia química producida por un ser vivo o derivado sintético, que mata o impide el crecimiento de ciertas clases de microorganismos sensibles",
+      "sweetener.description": "Dan un sabor dulce, empleandose sobre todo como sustitutos del azúcar",
+      "not-found.description": "No se ha podido identificar la categoría"
     },
     "risk": {
       "low": "Riesgo bajo",
@@ -327,6 +328,11 @@
       "description": "Edita tus alergías y preferencias alimentarias, para que podamos darte avisos cuando un producto no es adecuado para ti",
       "allergens": "Alergias",
       "other-preferences": "Otras preferencias"
+    },
+    "ADDITIVES": {
+      "title": "Aditivos alimentarios",
+      "description": "Busca y consulta los detalles acerca de cualquier aditivo alimentario",
+      "search": "Busca un aditivo"
     }
   }
 }

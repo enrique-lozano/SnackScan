@@ -899,7 +899,8 @@ export const additives: {
   {
     code: 'E202',
     description: {
-      en: 'Salt of Sorbic Acid',
+      en: 'Fungicide and antibacterial, although it is naturally present in nature, the additive is obtained through a synthetic process.<br>Some people may experience allergic reactions after consumption. Some studies have also determined that it could cause mutagenic effects on DNA molecules, however, others deny it.',
+      es: 'Fungicida y antibacteriano, aunque en la naturaleza está presente de manera natural, el aditivo se obtiene a través de un proceso de síntesis.<br>Algunas personas pueden experimentar reacciones alérgicas después de su consumo. Algún estudio ha determinado también que podría ser causante de efectos mutagénicos en las moleculas de ADN, sin embargo, otros lo desmienten',
     },
     name: {
       en: 'Potassium Sorbate',
@@ -1426,13 +1427,17 @@ export const additives: {
   {
     code: 'E282',
     description: {
-      en: 'Salt of propionic acid. Found naturally in Swiss cheese',
+      en: 'Synthetic preservative normally used to prevent the appearance of mold, fungus or bacteria.<br>A recent study in humans determined that this preservative has some relationship with increases in body mass index and insulin resistance.',
+      es: 'Conservante sintético usado normalmente para prevenir la aparición de moho, hongos o bacterias.<br>Un estudio reciente en humanos determinó que este conservante tiene cierta relación con aumentos del indice de masa corporal y de la resistencia a la insulina.',
     },
     name: {
       en: 'Calcium Propionate',
       es: 'Propionato de Calcio',
     },
     toxicity: 'High',
+    sources: [
+      "<a href='https://www.science.org/doi/10.1126/scitranslmed.aav0120#tab-citations'>Science Translational Medicine</a>",
+    ],
   },
   {
     code: 'E283',
@@ -1720,7 +1725,8 @@ export const additives: {
   {
     code: 'E322',
     description: {
-      en: 'Type of fat or lipid compound found naturally in all living organisms',
+      en: 'Type of fat or lipid compound found naturally in all living organisms. It can also be a derivative of egg or soy.<br>It is a very common additive in the food industry, and in reasonable amounts it does not carry any health risk according to multiple studies',
+      es: 'Tipo de grasa o compuesto lipídico que se encuentra naturalmente en todos los organismos vivos. También puede ser un derivado del huevo o de la soja.<br>Es un aditivo muy común en la industria alimentaria, y en cantidades razonables no conlleva ningún riesgo para la salud según múltiples estudios',
     },
     name: {
       en: 'Lecithins',
@@ -1795,8 +1801,8 @@ export const additives: {
   {
     code: 'E330',
     description: {
-      en: 'Occurs naturally in citrus fruit but may also be prepared from the fermentation of molasses. Used as an antioxidant',
-      es: 'Es utilizado principalmente como regulador de la acidez así como compuesto aromático. Incrementa la capacidad gelificante en las mermeladas y disminuye el pardeamiento enzimático en las frutas y en los productos derivados de las mismas.',
+      en: 'Occurs naturally in citrus fruit but may also be prepared from the fermentation of molasses. Used as an antioxidant.<br>It is one of the most common food additives, being low risk in low quantities. However, it is not recommended to consume in large quantities because in the long term it could cause dental corrosion.',
+      es: 'Es utilizado principalmente como regulador de la acidez así como compuesto aromático. Incrementa la capacidad gelificante en las mermeladas y disminuye el pardeamiento enzimático en las frutas y en los productos derivados de las mismas.<br>Es uno de los aditivos alimentarios más comunes, siendo de riesgo bajo en bajas cantidades. Sin embargo, no se recomienda consumir en grandes cantidades porque a largo plazo podría producir corrosión dental.',
     },
     name: {
       en: 'Citric Acid',
@@ -2764,7 +2770,8 @@ export const additives: {
   {
     code: 'E422',
     description: {
-      en: 'Colourless sweet liquid obtained from fatty acids',
+      en: 'Colourless sweet liquid obtained from fatty acids. Several studies have shown that a large amount of glycerol (synthetic or natural) can be administered without the appearance of adverse health effects.',
+      es: 'Líquido dulce incoloro obtenido a partir de ácidos grasos. Varios estudios han demostrado que se puede administrar una gran cantidad de glicerol (sintético o natural) sin que aparezcan efectos adversos para la salud.',
     },
     name: {
       en: 'Glycerine',
@@ -3829,6 +3836,7 @@ export const additives: {
     code: 'E500',
     description: {
       en: 'Prepared synthetically for use as an acid regulator',
+      es: 'Preparado sintéticamente para su uso como regulador de ácido',
     },
     name: {
       en: 'Sodium Bicarbonate/ Hydrogen Carbonate (Bicarb of Soda)',
